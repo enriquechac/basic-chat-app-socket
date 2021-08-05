@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT APP SocketIO</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+    </style>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+
+    <div id="form-user" class="">
+        <div>
+            <p>Username:</p>
+            <input type="text" id="form-username">
+            <button id="entrar">ENTRAR</button>
+        </div>
+    </div>
+
+
+    <diV class="container">
+
+        <div class="chat-container">
+
+            <div class="message-container" id="message-container">
+                
+
+            </div>
+
+            
+            <div class="input-container">
+                <input id="txt-input"></input>
+                <button id="send-input">ENVIAR</button>
+            </div>
+        </div>
+        
+    </diV>
+    <script defer type="text/javascript" src="chat.js"></script>
+</body>
+</html>
